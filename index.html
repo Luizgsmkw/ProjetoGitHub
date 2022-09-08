@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>GitHub</title>
+  </head>
+  <body>
+    <main>
+      <section class="campo-pesquisa">
+        <img src="img/search.svg" alt="Icone de lupa" />
+        <input
+          type="text"
+          placeholder="Digite o nome do usuário do GitHub"
+          id="inp"
+        />
+        <button id="buttonPesquisa">Buscar</button>
+      </section>
+      <section class="section-dados">
+        <div class="campo-dados">
+          <!-- <img src="" id="image" alt="" /> -->
+          <!-- <div class="container-dados">
+            <div class="container-user">
+              <div class="user-name">
+                <p class="nick-name" id="nick_name"></p>
+                <p class="name" id="name"></p>
+              </div>
+              <p class="date-created" id="created"></p>
+            </div>
+            <div class="data">
+              <p class="public_repos">Public_repos<span id="repos"></span></p>
+              <p class="followers">Followers<span id="followers"></span></p>
+              <p class="following">Following<span id="following"></span></p>
+            </div>
+          </div> -->
+        </div>
+        <div class="container-repos" id="divRepos">
+          <ul class="ulRepos" id="ulRepos"></ul>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
