@@ -181,3 +181,51 @@ body {
   height: 15px;
   margin-right: 2px;
 }
+
+@media(max-width: 750px){
+  .campo-pesquisa {
+    width: 500px;
+  }
+
+  .section-dados {
+    width: 500px;
+    padding: 10px;
+  }
+
+  .container-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-dados {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .container-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ .name, .nick-name {
+    text-align: center;
+  }
+}
+
+
+@media(max-width: 500px){
+  .campo-pesquisa {
+    width: 350px;
+  }
+  .campo-pesquisa input {
+    width: 200px;
+  }
+
+  .section-dados {
+    width: 350px;
+    padding: 10px;
+  }
+}
