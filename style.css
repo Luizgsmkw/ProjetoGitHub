@@ -59,11 +59,10 @@ body {
 }
 
 .campo-dados {
-  display: flex;
-  align-items: flex-start;
+  
 }
 
-.campo-dados img {
+.imgPerfil {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -71,6 +70,8 @@ body {
 }
 
 .container-dados {
+  display: flex;
+  align-items: flex-start;
   width: 100%;
 }
 
@@ -97,10 +98,16 @@ body {
   color: #bebebe;
 }
 
+.container-data{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .data {
   background-color: hsl(216, 53%, 9%);
   margin-top: 15px;
-  width: 450px;
+  width: 300px;
   height: 60px;
   border-radius: 6px;
   display: flex;
@@ -125,7 +132,6 @@ body {
 }
 
 .container-repos {
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -141,11 +147,12 @@ body {
 
 .liResp {
   background-color: hsl(219, 32%, 38%);
-  width: 180px;
+  width: 250px;
   margin: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   border-radius: 5px;
   padding: 10px 0px;
@@ -161,14 +168,15 @@ body {
 
 .spanPrincipal {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 180px;
 }
 
 .span {
   font-size: 12px;
 }
 
-.img {
+.imgr {
   width: 15px;
   height: 15px;
   margin-right: 2px;
