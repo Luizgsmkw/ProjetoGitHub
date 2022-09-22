@@ -57,7 +57,7 @@ function getUsersGit(userName) {
 
 async function reposGit(userName) {
   const respostaApiGit = await fetch(
-    `https://api.github.com/users/${userName}/repos`
+    `https://api.github.com/users/${userName}/repos?per_page=10`
   );
   return await respostaApiGit.json();
 }
@@ -78,6 +78,7 @@ function getReposGit(userName) {
     });
     document.querySelector(".campo-dados").innerHTML += `
     <div class="container-repos">
+    <p class="textRepos">10 últimos repositórios</p>
       <ul class="ulRepos">
       ${repositories}
       </ul>

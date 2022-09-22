@@ -137,6 +137,10 @@ body {
   width: 100%;
 }
 
+.textRepos{
+  
+}
+
 .ulRepos {
   display: flex;
   flex-wrap: wrap;
@@ -219,6 +223,7 @@ body {
 @media(max-width: 500px){
   .campo-pesquisa {
     width: 350px;
+    
   }
   .campo-pesquisa input {
     width: 200px;
