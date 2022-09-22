@@ -57,7 +57,7 @@ function getUsersGit(userName) {
 
 async function reposGit(userName) {
   const respostaApiGit = await fetch(
-    `https://api.github.com/users/${userName}/repos?per_page=10`
+    `https://api.github.com/users/${userName}/repos?per_page=12`
   );
   return await respostaApiGit.json();
 }
